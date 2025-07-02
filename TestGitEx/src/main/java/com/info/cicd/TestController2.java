@@ -16,5 +16,10 @@ public class TestController2 {
 	public String getMsg1() {
 		return "Welcome cicd TestController2 test2 end point";
 	}
+	
+	@GetMapping("/test3")
+	public String getMsg2() {
+		return "Welcome cicd TestController2 test3 end point";
+	}
 
 }
